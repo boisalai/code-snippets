@@ -3,7 +3,10 @@
     "allow": [
       "Bash(python:*)",
       "WebSearch",
-      "WebFetch(domain:github.com)"
+      "WebFetch(domain:github.com)",
+      "Bash(uv pip list:*)",
+      "Bash(uv run:*)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "ask": []
