@@ -6,7 +6,9 @@
       "WebFetch(domain:github.com)",
       "Bash(uv pip list:*)",
       "Bash(uv run:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nAdd agno, speech-to-text, and mlx-lm examples with new dependencies\n\n- Add agno agent examples for various AI frameworks\n- Add speech-to-text demos using mlx-whisper and parakeet-mlx\n- Reorganize mlx-lm examples into new directory structure\n- Add new dependencies: accelerate, agno, anthropic, fastapi, mcp,\n  mlx-whisper, ollama, parakeet-mlx, sqlalchemy\n- Update Claude settings to allow uv pip list and uv run commands\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push:*)"
     ],
     "deny": [],
     "ask": []

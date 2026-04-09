@@ -3,7 +3,7 @@ name = "code-snippets"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.12,<3.13"
 dependencies = [
     "accelerate>=1.11.0",
     "agno>=2.2.12",
@@ -14,7 +14,6 @@ dependencies = [
     "fastapi[standard]>=0.121.2",
     "huggingface-hub>=0.36.0",
     "langchain>=1.0.5",
-    "langchain-chroma>=1.0.0",
     "langchain-community>=0.4.1",
     "langchain-core>=1.0.5",
     "langchain-huggingface>=1.0.1",
@@ -32,7 +31,6 @@ dependencies = [
     "mlx-lm>=0.28.3",
     "mlx-whisper>=0.4.3",
     "ollama>=0.6.1",
-    "parakeet-mlx>=0.4.0",
     "psycopg[binary]>=3.2.12",
     "pypdf>=6.2.0",
     "python-docx>=1.2.0",
@@ -40,8 +38,9 @@ dependencies = [
     "sentence-transformers>=5.1.2",
     "setuptools>=80.9.0",
     "sqlalchemy>=2.0.44",
-    "torch>=2.9.1",
-    "torchvision>=0.24.1",
-    "transformers>=4.57.1",
+    "torch>=2.6.0",
+    "torchaudio>=2.6.0",
+    "torchvision>=0.21.0",
+    "transformers==4.46.3",
     "yt-dlp[default]>=2025.11.12",
 ]

@@ -1,3 +1,7 @@
+# /// script
+# dependencies = ["markitdown[all]>=0.1.3"]
+# ///
+
 from markitdown import MarkItDown
 from pathlib import Path
 from typing import Union
@@ -39,7 +43,7 @@ def convert_and_save(source_path: Union[str, Path]) -> Path:
 if __name__ == "__main__":
     home = Path.home()
     downloads = home / "Downloads"
-    source = downloads / "StructuredRagPyBay25.pdf"
+    source = downloads / "a.pdf"
 
     output_file = convert_and_save(source)
     print(f"Markdown file created: {output_file}")

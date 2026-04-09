@@ -51,6 +51,11 @@ AVAILABLE_MODELS = {
     }
 }
 
+# pip install openai-whisper
+# whisper fichier.mp3 --language fr --output_format txt
+
+
+
 # Select model here - change this to switch models easily
 SELECTED_MODEL = "large-v3-turbo"  # Options: tiny, base, small, medium, large-v3, large-v3-turbo, distil-large-v3
 
@@ -63,7 +68,7 @@ print(f"  Speed: {AVAILABLE_MODELS[SELECTED_MODEL]['speed']}")
 print(f"  Quality: {AVAILABLE_MODELS[SELECTED_MODEL]['quality']}\n")
 
 downloads_folder = Path.home() / "Downloads"
-audio_file_path = str(downloads_folder / "Audio_11_21_2025_13_23_42.mp3")
+audio_file_path = str(downloads_folder / "Recording.mp3")
 txt_file_path = str(downloads_folder / "Transcription.txt")
 
 print(audio_file_path)

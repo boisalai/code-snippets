@@ -129,15 +129,15 @@ def download_youtube_audio(
 if __name__ == "__main__":
     # Download video examples
     # Simple usage with default location
-    # video_url = "https://www.youtube.com/watch?v=0IhZdcjddo4"
+    video_url = "https://www.youtube.com/watch?v=YNQ4u9Tfc1s"
     # output = download_youtube_video(video_url)
 
     # Custom location and filename
-    # output = download_youtube_video(
-    #     url=video_url,
-    #     output_path=Path("~/Videos/YouTube"),
-    #     filename="my_video.mp4"
-    # )
+    output = download_youtube_video(
+        url=video_url,
+        output_path=Path("~/Downloads"),
+        filename="my_video.mp4"
+    )
 
     # Multiple videos
     # urls = [
@@ -148,8 +148,8 @@ if __name__ == "__main__":
 
     # Download audio examples
     # Simple usage with default settings (MP3, 192kbps)
-    audio_url = "https://www.youtube.com/watch?v=eC3RNuI6ow0"
-    output = download_youtube_audio(audio_url)
+    # audio_url = "https://www.youtube.com/watch?v=eC3RNuI6ow0"
+    # output = download_youtube_audio(audio_url)
 
     # Custom location and format
     # output = download_youtube_audio(
