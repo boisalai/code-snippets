@@ -43,6 +43,7 @@ def convert_and_save(source_path: Union[str, Path]) -> Path:
 if __name__ == "__main__":
     home = Path.home()
     downloads = home / "Downloads"
+    downloads = "/Users/alain/Documents/Université Laval/Droit/2026-H/DRT-1002 Constitutionnel/Jurisprudence/PDF"
     source = downloads / "a.pdf"
 
     output_file = convert_and_save(source)
