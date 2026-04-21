@@ -135,6 +135,10 @@ site/
 *.tmp
 *.swp
 
+# Audio/video files
+*.wav
+*.txt
+
 # Project specific
 outputs/
 results/
