@@ -68,8 +68,7 @@ print(f"  Speed: {AVAILABLE_MODELS[SELECTED_MODEL]['speed']}")
 print(f"  Quality: {AVAILABLE_MODELS[SELECTED_MODEL]['quality']}\n")
 
 downloads_folder = Path.home() / "Downloads"
-# audio_file_path = str(downloads_folder / "Recording.mp3")
-audio_file_path = str(downloads_folder / "Recording.m4a")
+audio_file_path = str(downloads_folder / "Recording.mp3")
 txt_file_path = str(downloads_folder / "Transcription.txt")
 
 print(audio_file_path)
